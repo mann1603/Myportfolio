@@ -1,0 +1,64 @@
+.container {
+  flex: 1;
+  padding: 45px;
+  margin-left: 320px;
+}
+
+.intro {
+  margin-top: 60px;
+}
+.intro h1 {
+  line-height: 18px;
+  font-size: 52px;
+}
+
+.intro p {
+  width: 400px;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  z-index: 1;
+  color: aliceblue;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.divider1 {
+  border-bottom: 1px solid white;
+  width: calc(100vw - 425px);
+  margin-top: 60px;
+}
+
+.recent-projects {
+  margin-top: 55px;
+}
+.recent-projects h1 {
+  font-size: 35px;
+}
+
+.myProjects {
+  display: grid;
+  flex: none;
+  gap: 24px;
+  grid-auto-rows: min-content;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  height: min-content;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+.myStack {
+  display: grid;
+  flex: none;
+  gap: 24px;
+  grid-auto-rows: min-content;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: repeat(1, min-content);
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}

@@ -1,0 +1,62 @@
+.stack-card {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px 24px 15px 24px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  gap: 24;
+  border-radius: 12px;
+}
+
+.card-item {
+  width: min-content;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 12px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.card-item img {
+  width: 44px;
+  height: 44px;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 6px;
+}
+
+.stack-details {
+  height: min-content;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.stack-details .title{
+    font-size: 20px;
+    line-height: 2;
+    color: aliceblue;
+    font-weight: 600;
+}
+.stack-details span{
+    font-size: 15px;
+    line-height: 0;
+    color: rgb(153, 153, 153);
+}

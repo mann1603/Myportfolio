@@ -1,0 +1,12 @@
+.stack-grid {
+  width: 100%;
+  height: min-content;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  justify-content: center;
+  grid-auto-rows: min-content;
+  grid-template-rows: repeat(1, min-content);
+  gap: 24px;
+  margin-top: 80px;
+}

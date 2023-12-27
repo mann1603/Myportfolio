@@ -1,0 +1,51 @@
+.involve-card {
+  width: 1050px;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px 24px 24px 24px;
+  background-color: #1a1a1a;
+  flex-wrap: nowrap;
+  border-radius: 12px;
+}
+
+.org {
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  line-height: 0.5;
+  margin: 8px 0px 0px 65px;
+}
+
+.org h2 {
+  font-size: 20px;
+}
+
+.org p {
+  z-index: 1;
+  color: var(--Light_90, #e6e6e6);
+  font-size: 15px;
+}
+
+.description {
+  flex: 1;
+  width: 1px;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.description p {
+  width: 240px;
+  height: auto;
+  line-height: 1.2;
+  font-size: 17px;
+  color: var(--Light_90, #e6e6e6);
+}

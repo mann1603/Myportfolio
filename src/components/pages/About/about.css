@@ -1,0 +1,108 @@
+.about-hero {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 250px;
+}
+
+.about-hero img {
+  flex: 1;
+  width: 300px;
+  height: 350px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 140px;
+}
+
+.about-intro {
+  margin-top: 60px;
+}
+.about-intro h1 {
+  line-height: 18px;
+  font-size: 52px;
+}
+
+.about-intro p {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  z-index: 1;
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.5;
+}
+
+.edu {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.edu h2 {
+  font-size: 40px;
+}
+
+.edu p {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  z-index: 1;
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.5;
+}
+
+.involvements {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px 48px 0px;
+  overflow: visible;
+  flex-wrap: nowrap;
+}
+
+.involvements h2 {
+  font-size: 40px;
+}
+
+.card {
+  box-sizing: border-box;
+  flex: 1;
+  width: 1px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0px 0px 0px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.involve-container {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  gap: 30px;
+}

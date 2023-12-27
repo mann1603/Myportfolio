@@ -1,0 +1,32 @@
+.project-hero {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px 0px 48px 0px;
+  overflow: visible;
+  flex-wrap: nowrap;
+}
+
+.project-row {
+  width: 100%;
+  height: min-content;
+}
+
+.project-hero h1 {
+  font-size: 52px;
+  color: #e6e6e6;
+  line-height: 0.4;
+}
+
+.Projects {
+  width: 100%;
+  height: min-content;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  justify-content: center;
+  grid-auto-rows: min-content;
+  padding-top: 37px;
+}
