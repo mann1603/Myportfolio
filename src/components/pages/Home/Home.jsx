@@ -36,6 +36,7 @@ const Home = () => {
               image={"/projects photos/imdb.png"}
               CardClass={"small-card"}
               ImgClass={"small-img"}
+              link={"https://imdb-clone-lyart.vercel.app/"}
             />
             <ProjectCard
               name={"TESLA"}
@@ -43,6 +44,7 @@ const Home = () => {
               image={"/projects photos/tesla.png"}
               CardClass={"small-card"}
               ImgClass={"small-img"}
+              link={"https://github.com/mann1603/tesla-clone"}
             />
             <ProjectCard
               name={"CUSINE DELIGHT"}
@@ -50,6 +52,7 @@ const Home = () => {
               image={"/projects photos/recipe.png"}
               CardClass={"small-card"}
               ImgClass={"small-img"}
+              link={"https://recipes-app-blush.vercel.app/"}
             />
           </div>
         </div>
