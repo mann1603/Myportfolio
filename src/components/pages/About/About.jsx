@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./about.css";
 import Available from "../../Available/Available";
 import Button from "../../Button/Button";
@@ -7,6 +7,10 @@ import Footer from "../../Footer/Footer";
 import { Fade } from "react-awesome-reveal";
 
 const About = () => {
+  useEffect(() => {
+    document.title = 'About Me';
+  }, []);
+
   return (
     <div className="container">
       <Available />

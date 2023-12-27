@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./stackContent.css";
 import Available from "../../Available/Available";
 import StackCard from "../../StackCard/StackCard";
@@ -6,6 +6,11 @@ import Footer from "../../Footer/Footer";
 import { Fade } from "react-awesome-reveal";
 
 const Stack = () => {
+  useEffect(() => {
+    document.title = 'My Stack';
+  }, []);
+
+
   return (
     <div className="container">
       <Available />

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./homeContent.css";
 import Available from "../../Available/Available";
 import Button from "../../Button/Button";
@@ -8,6 +8,10 @@ import Footer from "../../Footer/Footer";
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Home';
+  }, []);
+
   return (
     <div className="container">
       <Available />

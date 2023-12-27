@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Projects.css";
 import Available from "../../Available/Available";
 import ProjectCard from "../../Project-card/ProjectCard";
@@ -6,6 +6,10 @@ import Footer from "../../Footer/Footer";
 import { Fade } from "react-awesome-reveal";
 
 const Projects = () => {
+  useEffect(() => {
+    document.title = 'My Projects';
+  }, []);
+
   return (
     <div className="container">
       <Available />
