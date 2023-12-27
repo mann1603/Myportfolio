@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ProjectCard.css";
 import { Link } from "react-router-dom";
 // import { useParams } from "react-router-dom";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const ProjectCard = ({ name, image, category, CardClass, ImgClass, link }) => {
   // const { projectId } = useParams();
@@ -10,7 +10,7 @@ const ProjectCard = ({ name, image, category, CardClass, ImgClass, link }) => {
   const [hover, setHover] = useState(false);
 
   return (
-    <Fade bottom cascade>
+    <Fade triggerOnce cascade>
     <div className="project-div">
       <Link to={link} target="_blank">
         <div

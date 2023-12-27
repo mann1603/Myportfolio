@@ -3,19 +3,21 @@ import "./Projects.css";
 import Available from "../../Available/Available";
 import ProjectCard from "../../Project-card/ProjectCard";
 import Footer from "../../Footer/Footer";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Projects = () => {
   return (
     <div className="container">
       <Available />
       <div className="project-hero">
-        <Fade bottom cascade>
-          <div className="project-row">
-            <h1>Projects:</h1>
+        <div className="project-row">
+          <h1>Projects:</h1>
+          <Fade direction={"up"} triggerOnce cascade>
             <h1>Showcasing</h1>
             <h1>My Journey</h1>
+          </Fade>
 
+          <Fade triggerOnce cascade>
             <div className="Projects">
               <ProjectCard
                 name={"IMDB CLONE"}
@@ -74,8 +76,8 @@ const Projects = () => {
                 link={"https://coffee-products.netlify.app/"}
               />
             </div>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
       </div>
 
       <div className="divider1"></div>

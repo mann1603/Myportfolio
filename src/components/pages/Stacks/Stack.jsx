@@ -3,13 +3,13 @@ import "./stackContent.css";
 import Available from "../../Available/Available";
 import StackCard from "../../StackCard/StackCard";
 import Footer from "../../Footer/Footer";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Stack = () => {
   return (
     <div className="container">
       <Available />
-      <Fade bottom cascade>
+      <Fade direction={"up"} triggerOnce cascade>
         <div className="intro">
           <h1>My Skill Stack: </h1>
           <h1>Crafting Digital</h1>

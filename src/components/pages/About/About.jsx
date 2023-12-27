@@ -4,14 +4,14 @@ import Available from "../../Available/Available";
 import Button from "../../Button/Button";
 import Involvement from "../../Involvement/Involvement";
 import Footer from "../../Footer/Footer";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
     <div className="container">
       <Available />
       <div className="about-hero">
-        <Fade bottom cascade>
+        <Fade triggerOnce direction={'up'} cascade>
           <div className="about-intro">
             <h1>About Me:</h1>
             <h1>Crafting Digital</h1>
@@ -24,13 +24,13 @@ const About = () => {
             </p>
           </div>
         </Fade>
-        <Fade bottom cascade>
+        <Fade direction={'up'} triggerOnce cascade>
           <img src="/Projects photos/myimg.jpg" alt="" />
         </Fade>
       </div>
       <div className="divider1"></div>
 
-      <Fade bottom cascade>
+      <Fade direction={'up'} triggerOnce cascade>
         <div className="edu">
           <div className="education">
             <h2>Education</h2>
@@ -65,7 +65,7 @@ const About = () => {
 
       <div className="divider1"></div>
 
-      <Fade bottom cascade>
+      <Fade triggerOnce cascade>
         <div className="involvements">
           <div className="card">
             <h2>Involvements</h2>

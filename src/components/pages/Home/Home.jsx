@@ -5,14 +5,14 @@ import Button from "../../Button/Button";
 import ProjectCard from "../../Project-card/ProjectCard";
 import StackCard from "../../StackCard/StackCard";
 import Footer from "../../Footer/Footer";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   return (
     <div className="container">
       <Available />
 
-      <Fade bottom cascade>
+      <Fade direction={'up'} cascade triggerOnce damping={0.1}>
         <div className="intro">
           <h1>Hey there!</h1>
           <h1>I'm Mann…</h1>
@@ -26,7 +26,7 @@ const Home = () => {
       </Fade>
       <div className="divider1"></div>
 
-      <Fade bottom cascade>
+      <Fade triggerOnce cascade>
         <div className="recent-projects">
           <h1>Recent Projects</h1>
           <div className="myProjects">
@@ -58,7 +58,7 @@ const Home = () => {
       </Fade>
       <div className="divider1"></div>
 
-      <Fade bottom cascade>
+      <Fade direction={'up'} triggerOnce cascade>
         <div className="recent-projects">
           <h1>Stack</h1>
           <div className="myStack">
