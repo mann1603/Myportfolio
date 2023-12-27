@@ -33,7 +33,7 @@ const Home = () => {
             <ProjectCard
               name={"IMDB CLONE"}
               category={"IMDB CLONE IN REACT"}
-              image={"/projects photos/imdb.png"}
+              image={"/Projects photos/imdb.png"}
               CardClass={"small-card"}
               ImgClass={"small-img"}
               link={"https://imdb-clone-lyart.vercel.app/"}
@@ -41,7 +41,7 @@ const Home = () => {
             <ProjectCard
               name={"TESLA"}
               category={"TESLA CLONE IN REACT"}
-              image={"/projects photos/tesla.png"}
+              image={"/Projects photos/tesla.png"}
               CardClass={"small-card"}
               ImgClass={"small-img"}
               link={"https://github.com/mann1603/tesla-clone"}
@@ -49,7 +49,7 @@ const Home = () => {
             <ProjectCard
               name={"CUSINE DELIGHT"}
               category={"RECIPE WEBSITE IN REACT"}
-              image={"/projects photos/recipe.png"}
+              image={"/Projects photos/recipe.png"}
               CardClass={"small-card"}
               ImgClass={"small-img"}
               link={"https://recipes-app-blush.vercel.app/"}

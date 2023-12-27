@@ -22,7 +22,7 @@ const Projects = () => {
               <ProjectCard
                 name={"IMDB CLONE"}
                 category={"IMDB CLONE IN REACT"}
-                image={"/projects photos/imdb.png"}
+                image={"/Projects photos/imdb.png"}
                 CardClass={"large-card"}
                 ImgClass={"large-img"}
                 link={"https://imdb-clone-lyart.vercel.app/"}
@@ -30,7 +30,7 @@ const Projects = () => {
               <ProjectCard
                 name={"CUSINE DELIGHT"}
                 category={"RECIPE WEBSITE IN REACT"}
-                image={"/projects photos/recipe.png"}
+                image={"/Projects photos/recipe.png"}
                 CardClass={"large-card"}
                 ImgClass={"large-img"}
                 link={"https://recipes-app-blush.vercel.app/"}
@@ -38,7 +38,7 @@ const Projects = () => {
               <ProjectCard
                 name={"CARA"}
                 category={"E-COMMERCE WEBSITE "}
-                image={"/projects photos/e-com.png"}
+                image={"/Projects photos/e-com.png"}
                 CardClass={"large-card"}
                 ImgClass={"large-img"}
                 link={"https://garments-e-commerce.netlify.app/"}
@@ -46,7 +46,7 @@ const Projects = () => {
               <ProjectCard
                 name={"WEATHER-APP"}
                 category={"WEATHER-APP IN REACT"}
-                image={"/projects photos/weather.png"}
+                image={"/Projects photos/weather.png"}
                 CardClass={"large-card"}
                 ImgClass={"large-img"}
                 link={"https://weather-app-mann1603.vercel.app/"}
@@ -54,7 +54,7 @@ const Projects = () => {
               <ProjectCard
                 name={"TESLA"}
                 category={"TESLA CLONE IN REACT"}
-                image={"/projects photos/tesla.png"}
+                image={"/Projects photos/tesla.png"}
                 CardClass={"large-card"}
                 ImgClass={"large-img"}
                 link={"https://github.com/mann1603/tesla-clone"}
@@ -62,7 +62,7 @@ const Projects = () => {
               <ProjectCard
                 name={"HACKVENGERS"}
                 category={"HACKATHON WEBSITE IN REACT"}
-                image={"/projects photos/hack.png"}
+                image={"/Projects photos/hack.png"}
                 CardClass={"large-card"}
                 ImgClass={"large-img"}
                 link={"https://github.com/mann1603/Hack-vengers"}
@@ -70,7 +70,7 @@ const Projects = () => {
               <ProjectCard
                 name={"CAFENA"}
                 category={"COFFEE SHOP WEBSITE"}
-                image={"/projects photos/coffee.png"}
+                image={"/Projects photos/coffee.png"}
                 CardClass={"large-card"}
                 ImgClass={"large-img"}
                 link={"https://coffee-products.netlify.app/"}
