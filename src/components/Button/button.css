@@ -26,3 +26,10 @@
     color: black;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);  
   }
+
+  @media screen and (max-width: 717px) {
+    .custom-button {
+      width: 100%;
+      margin-top: 30px;
+    }
+  }

@@ -2,10 +2,10 @@ import React from "react";
 import "./StackCard.css";
 import { Fade } from "react-awesome-reveal";
 
-const StackCard = ({Title, Category, Image, CardWidth}) => {
+const StackCard = ({Title, Category, Image}) => {
   return (
     <Fade direction={"up"} triggerOnce  cascade>
-    <div style={{width: CardWidth}} className="stack-card">
+    <div className="stack-card">
       <div className="card-item">
         <img src={Image} alt={Title} />
         <div className="stack-details">

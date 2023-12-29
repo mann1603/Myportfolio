@@ -10,3 +10,10 @@
   gap: 24px;
   margin-top: 80px;
 }
+
+@media screen and (max-width: 717px){
+  .stack-grid{
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    margin-top: 43px;
+  }
+}

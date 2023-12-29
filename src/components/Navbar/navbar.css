@@ -117,3 +117,38 @@
   color: aliceblue;
   font-size: 18px;
 }
+
+@media screen and (max-width: 450px) {
+  .top-content{
+    padding: 1px 31px 15px;
+    flex-direction: row;
+    width: -webkit-fill-available;
+  }
+
+  .profile img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .bottom-content{
+    margin: 0px;
+  }
+
+  .bottom-content ul li{
+    font-size: 16px;
+  }
+
+  .divider{
+    width: 385px;
+  }
+
+  .nav-footer{
+    margin: 0px;
+    width: -webkit-fill-available;
+  }
+
+  .footer-img{
+    width: -webkit-fill-available;
+    padding: 36px 40px 0;
+  }
+}

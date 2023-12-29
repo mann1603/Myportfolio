@@ -1,4 +1,35 @@
-.App{
+.app{
     display: flex;
     overflow-x: hidden;
 }
+
+/* For desktop screens (example breakpoint: 768px) */
+@media screen and (min-width: 768px) {
+    .app {
+      display: flex;
+    }
+
+    .app > .hamburger-menu {
+      display: none;
+    }
+  
+    .app > .sidebar {
+      display: block;
+    }
+  }
+  
+
+  @media screen and (max-width: 767px) {
+    .app {
+      /* display: flex; */
+    }
+  
+    .app > .sidebar {
+      display: none;
+    }
+    
+    .app > .hamburger-menu {
+      display: flex;
+    }
+  }
+  

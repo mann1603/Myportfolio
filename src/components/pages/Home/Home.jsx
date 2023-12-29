@@ -70,31 +70,26 @@ const Home = () => {
           <h1>Stack</h1>
           <div className="myStack">
             <StackCard
-              CardWidth={"310px"}
               Title={"HTML 5"}
               Category={"Structure and Content"}
               Image={"/Projects photos/html.png"}
             />
             <StackCard
-              CardWidth={"310px"}
               Title={"CSS 3"}
               Category={"Visual Styling"}
               Image={"/Projects photos/css.png"}
             />
             <StackCard
-              CardWidth={"310px"}
               Title={"JavaScript"}
               Category={"Functionality"}
               Image={"/Projects photos/JS.svg"}
             />
             <StackCard
-              CardWidth={"310px"}
               Title={"React.Js"}
               Category={"Dynamic Development"}
               Image={"/Projects photos/react.png"}
             />
             <StackCard
-              CardWidth={"310px"}
               Title={"GitHub"}
               Category={"Version Control"}
               Image={"/Projects photos/github.png"}

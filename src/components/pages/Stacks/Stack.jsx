@@ -24,49 +24,41 @@ const Stack = () => {
 
       <div className="stack-grid">
         <StackCard
-          CardWidth={"500px"}
           Title={"HTML 5"}
           Category={"Structure and Content"}
           Image={"/Projects photos/html.png"}
         />
         <StackCard
-          CardWidth={"500px"}
           Title={"CSS 3"}
           Category={"Visual Styling"}
           Image={"/Projects photos/css.png"}
         />
         <StackCard
-          CardWidth={"500px"}
           Title={"JavaScript"}
           Category={"Functionality"}
           Image={"/Projects photos/JS.svg"}
         />
         <StackCard
-          CardWidth={"500px"}
           Title={"React.Js"}
           Category={"Dynamic Development"}
           Image={"/Projects photos/react.png"}
         />
         <StackCard
-          CardWidth={"500px"}
           Title={"GitHub"}
           Category={"Version Control"}
           Image={"/Projects photos/github.png"}
         />
         <StackCard
-          CardWidth={"500px"}
           Title={"Tailwind CSS"}
           Category={"CSS Framework"}
           Image={"/Projects photos/tailwind.jpg"}
         />
         <StackCard
-          CardWidth={"500px"}
           Title={"Bootstrap"}
           Category={"CSS Frameworkl"}
           Image={"/Projects photos/bootstrap.jpg"}
         />
         <StackCard
-          CardWidth={"500px"}
           Title={"Figma"}
           Category={"Collabarative Design"}
           Image={"/Projects photos/figma.jpg"}

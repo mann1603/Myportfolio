@@ -90,7 +90,6 @@ const Navbar = () => {
       </div>
 
       <div className="nav-footer">
-        {/* <p>&copy; Mann Kawatkar {new Date().getFullYear()}</p> */}
         <div className="footer-img">
           <Link to={"https://github.com/mann1603"} target="_blank">
             <VscGithubAlt />

@@ -6,3 +6,9 @@ p{
     color: rgba(240, 248, 255, 0.411);
     font-size: 13px;
 }
+
+@media screen and (max-width: 717px) {
+  .footer-div{
+    padding: 22px 91px 3px 3px;
+  }
+}

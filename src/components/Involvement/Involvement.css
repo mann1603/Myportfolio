@@ -33,7 +33,6 @@
 
 .description {
   flex: 1;
-  width: 1px;
   height: min-content;
   display: flex;
   flex-direction: row;
@@ -48,4 +47,19 @@
   line-height: 1.2;
   font-size: 17px;
   color: var(--Light_90, #e6e6e6);
+}
+
+@media screen and (max-width: 717px) {
+  .involve-card {
+    flex-direction: column;
+    width: -webkit-fill-available;
+  }
+  
+  .org {
+    margin: 0px 0px 0px 0px;
+  }
+  .description p{
+    width: -webkit-fill-available;
+    font-size: 15px;
+  }
 }

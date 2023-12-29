@@ -33,6 +33,7 @@
 .recent-projects {
   margin-top: 55px;
 }
+
 .recent-projects h1 {
   font-size: 35px;
 }
@@ -59,6 +60,41 @@
   height: min-content;
   justify-content: center;
   overflow: hidden;
-  padding: 0;
   width: 100%;
 }
+
+@media screen and (max-width: 717px) {
+  .container {
+    /* display: none; */
+    margin-left: 0px;
+    margin-top: 88px;
+    padding: 23px;
+    width: -webkit-fill-available;
+  }
+
+  .intro h1{
+    font-size: 45px;
+  }
+
+  .divider1 {
+    width: calc(100vw - 53px);
+    margin-top: 47px;
+  }
+
+  .recent-projects {
+    margin-top: 34px;
+  }
+
+  .recent-projects h1 {
+    font-size: 30px;
+  }
+
+  .myProjects {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+
+  .myStack {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+}
+

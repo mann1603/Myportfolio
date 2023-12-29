@@ -1,0 +1,38 @@
+/* Add your desired styles for the hamburger menu */
+.hamburger-menu {
+  width: 100%;
+  height: min-content;
+  position: fixed;
+  top: 0;
+  background-color: #000000;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1000;
+  border-bottom: 1px solid white;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-icon svg{
+  font-size: 25px;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.show-content{
+  width: -webkit-fill-available;
+  /* opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 1s ease, height 0.3s ease; */
+}
+
+/* .hamburger-menu.open .show-content {
+  opacity: 1;
+  height: auto;
+} */
+
