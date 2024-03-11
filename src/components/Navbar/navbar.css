@@ -91,13 +91,23 @@
   color: #666666;
   text-decoration: none;
 }
+
 .bottom-content ul li a:hover{
   color: #999999;
-}
-.bottom-content ul li a.active{
+} 
+
+ .bottom-content ul li a.active{
   color: #FAFAFA;
 }
 
+/* .home, .about, .projects, .stack{
+  color: #666666;
+  text-decoration: none;
+}
+
+.active{
+  color: #FAFAFA;
+} */
 
 .nav-footer {
   margin-top: 220px;

@@ -24,14 +24,6 @@ const Projects = () => {
           <Fade triggerOnce cascade>
             <div className="Projects">
               <ProjectCard
-                name={"IMDB CLONE"}
-                category={"IMDB CLONE IN REACT"}
-                image={"/Projects photos/imdb.png"}
-                CardClass={"large-card"}
-                ImgClass={"large-img"}
-                link={"https://imdb-clone-lyart.vercel.app/"}
-              />
-              <ProjectCard
                 name={"CUSINE DELIGHT"}
                 category={"RECIPE WEBSITE IN REACT"}
                 image={"/Projects photos/recipe.png"}
@@ -63,6 +55,14 @@ const Projects = () => {
                 ImgClass={"large-img"}
                 link={"https://github.com/mann1603/tesla-clone"}
               />
+                <ProjectCard
+                  name={"IMDB CLONE"}
+                  category={"IMDB CLONE IN REACT"}
+                  image={"/Projects photos/imdb.png"}
+                  CardClass={"large-card"}
+                  ImgClass={"large-img"}
+                  link={"https://imdb-clone-lyart.vercel.app/"}
+                />
               <ProjectCard
                 name={"HACKVENGERS"}
                 category={"HACKATHON WEBSITE IN REACT"}

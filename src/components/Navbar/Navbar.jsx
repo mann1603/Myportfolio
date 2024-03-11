@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // Import Link from React Router if using routing
 import "./navbar.css";
 import { GoHome } from "react-icons/go";
@@ -18,7 +18,22 @@ const Navbar = () => {
     profilePhoto: "/Projects photos/myimg.jpg", // Replace with your image path
   };
 
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState('home');
+
+  useEffect(() => {
+    const currentPath = window.location.pathname;
+    console.log(currentPath)
+    if (currentPath === '/') {  
+      setActiveLink('home');
+    } else if (currentPath === '/about') {
+      setActiveLink('about');
+    } else if (currentPath === '/projects') {
+      setActiveLink('projects');
+    }
+    else if (currentPath === '/stack') {
+      setActiveLink('stack');
+    }
+  },[]);
 
   const handleClick = (link) => {
     setActiveLink(link);
@@ -71,6 +86,7 @@ const Navbar = () => {
                 to="/projects"
                 onClick={() => handleClick("projects")}
                 className={activeLink === "projects" ? "active" : ""}
+                style={{textDecoration: "none"}}
               >
                 Projects
               </Link>

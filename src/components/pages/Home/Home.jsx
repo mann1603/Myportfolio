@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./homeContent.css";
 import Available from "../../Available/Available";
 import Button from "../../Button/Button";
@@ -6,17 +6,24 @@ import ProjectCard from "../../Project-card/ProjectCard";
 import StackCard from "../../StackCard/StackCard";
 import Footer from "../../Footer/Footer";
 import { Fade } from "react-awesome-reveal";
+import { useLocation } from "react-router-dom";
 
-const Home = () => {
+const Home = ({ setActiveLink }) => {
   useEffect(() => {
-    document.title = 'Home';
+    document.title = "Home";
   }, []);
+
+  const location = useLocation();
+
+  const handleButtonClick = (link) => {
+    setActiveLink(link); // Call setActiveLink function when button is clicked
+  };
 
   return (
     <div className="container">
       <Available />
 
-      <Fade direction={'up'} cascade triggerOnce damping={0.1}>
+      <Fade direction={"up"} cascade triggerOnce damping={0.1}>
         <div className="intro">
           <h1>Hey there!</h1>
           <h1>I'm Mann…</h1>
@@ -26,7 +33,12 @@ const Home = () => {
           </p>
         </div>
 
-        <Button name={"More about me"} link={"/about"} margin={"40px"} />
+        <Button
+          name={"More about me"}
+          link={"/about"}
+          margin={"40px"}
+          onClick={() => handleButtonClick("about")}
+        />
       </Fade>
       <div className="divider1"></div>
 
@@ -35,12 +47,12 @@ const Home = () => {
           <h1>Recent Projects</h1>
           <div className="myProjects">
             <ProjectCard
-              name={"IMDB CLONE"}
-              category={"IMDB CLONE IN REACT"}
-              image={"/Projects photos/imdb.png"}
+              name={"CARA"}
+              category={"E-COMMERCE WEBSITE "}
+              image={"/Projects photos/e-com.png"}
               CardClass={"small-card"}
               ImgClass={"small-img"}
-              link={"https://imdb-clone-lyart.vercel.app/"}
+              link={"https://garments-e-commerce.netlify.app/"}
             />
             <ProjectCard
               name={"TESLA"}
@@ -65,7 +77,7 @@ const Home = () => {
       </Fade>
       <div className="divider1"></div>
 
-      <Fade direction={'up'} triggerOnce cascade>
+      <Fade direction={"up"} triggerOnce cascade>
         <div className="recent-projects">
           <h1>Stack</h1>
           <div className="myStack">
@@ -99,7 +111,7 @@ const Home = () => {
 
         <Button name={"All Stack"} link={"/stack"} margin={"35px"} />
       </Fade>
-      
+
       <div className="divider1"></div>
 
       <div className="footer">
