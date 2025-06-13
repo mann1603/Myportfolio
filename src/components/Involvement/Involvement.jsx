@@ -11,7 +11,7 @@ const Involvement = ({ Designation, OrgName, Period, Description }) => {
       </div>
       <div className="description">
         <p>{Description}</p>
-      </div>
+      </div>  
     </div>
   );
 };

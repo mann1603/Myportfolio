@@ -96,6 +96,46 @@ const Projects = () => {
             <Fade triggerOnce cascade>
                 <div className="Projects">
                   <ProjectCard
+                    name={"Career Abroad"}
+                    category={" Career Abroad"}
+                    image={"/Projects photos/career-abroad.png"}
+                    CardClass={"large-card"}
+                    ImgClass={"large-img"}
+                    link={"https://www.careerabroad.ca/"}
+                  />
+                  <ProjectCard
+                    name={"Helios Paddle"}
+                    category={"Helios Paddle"}
+                    image={"/Projects photos/helios.png"}
+                    CardClass={"large-card"}
+                    ImgClass={"large-img"}
+                    link={"https://helios.theri8click.com/"}
+                  />
+                  <ProjectCard
+                    name={"Techtastic Technologies"}
+                    category={"Techtastic Technologies"}
+                    image={"/Projects photos/Techtastic.png"}
+                    CardClass={"large-card"}
+                    ImgClass={"large-img"}
+                    link={"https://techtastic.theri8click.com/"}
+                  />
+                  <ProjectCard
+                    name={"Thematix"}
+                    category={"Thematix"}
+                    image={"/Projects photos/Thematix.png"}
+                    CardClass={"large-card"}
+                    ImgClass={"large-img"}
+                    link={"https://thematix25.theri8click.com/"}
+                  />
+                  <ProjectCard
+                    name={"Software Planet"}
+                    category={"Software Planet"}
+                    image={"/Projects photos/software-planet.png"}
+                    CardClass={"large-card"}
+                    ImgClass={"large-img"}
+                    link={"https://www.thesoftwareplanet.com/"}
+                  />
+                  <ProjectCard
                     name={"STUDIO JENNIFER"}
                     category={"STUDIO JENNIFER"}
                     image={"/Projects photos/studiojennifer.png"}

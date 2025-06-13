@@ -42,7 +42,7 @@
 }
 
 .description p {
-  width: 240px;
+  /* width: 240px; */
   height: auto;
   line-height: 1.2;
   font-size: 17px;

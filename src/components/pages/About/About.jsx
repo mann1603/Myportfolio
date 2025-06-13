@@ -72,30 +72,22 @@ const About = () => {
       <Fade triggerOnce cascade>
         <div className="involvements">
           <div className="card">
-            <h2>Involvements</h2>
+            <h2>EXPERIENCE</h2>
             <div className="involve-container">
               <Involvement
-                Designation={"Organisation Team Member"}
-                OrgName={"SVIT, Vasad • HackSvit"}
-                Period={"2021-22"}
+                Designation={"Software Engineer Intern"}
+                OrgName={" Garima System Solutions PVT LTD"}
+                Period={"Feb 2024- April 2024"}
                 Description={
-                  "Served as a team member in the national-level Hackathon named HackSvit hosted at SVIT College, Vasad."
+                  "Developed dynamic, user-interactive frontend dashboards using React.js, improving data visualization and user  engagement. Implemented and developed robust APIs, enhancing project functionality and facilitating seamless data integration.Streamlined the frontend development workflow, resulting in a 20% increase in efficiency and a more intuitive user experience. Collaborated with cross-functional teams to ensure alignment on project goals and technical requirements."
                 }
               />
               <Involvement
-                Designation={"Event Volunteer"}
-                OrgName={"SVIT, Vasad • Prakarsh '22"}
+                Designation={"Freelance WordPress Developer"}
+                OrgName={" theri8click- Digital Marketing Agency"}
                 Period={"2021-22"}
                 Description={
-                  "Contributed as a Volunteer, coordinating non-technical events during the national-level technical symposium Prakarsh'22 held at SVIT College, Vasad."
-                }
-              />
-              <Involvement
-                Designation={"Event Head"}
-                OrgName={"SVIT, Vasad • Prakarsh'23"}
-                Period={"2022-23"}
-                Description={
-                  "Led as an Event Head, organizing an LAN Gaming Event during the national-level technical symposium Prakarsh'23 at SVIT College, Vasad."
+                  "Develop custom WordPress Websites, ensuring functionality, user-friendliness, and interactivity for diverse client needs.  Optimize websites for speed and performance, enhancing user experience and search engine rankings. Integrate various plugins and tools to extend website capabilities and streamline operations. Provide ongoing maintenance and support, ensuring websites remain up-to-date and secure"
                 }
               />
             </div>
